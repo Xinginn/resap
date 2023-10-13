@@ -43,7 +43,7 @@
     "react-instantsearch-hooks-server": "^6.32.1",
     "react-json-view": "^1.21.3",
     "react-leaflet": "^4.0.2",
-    "react-share": "^4.4.0",
+    "react-share": "^4.4.1",
     "react-toast-notifications": "^2.5.1"
   },
   "devDependencies": {

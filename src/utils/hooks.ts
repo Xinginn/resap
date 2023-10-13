@@ -19,7 +19,8 @@ export const useSearchFichesForm = () => {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    return router.push(`/fiches?query=${value}`)
+    // return router.push(`/fiches?query=${value}`)
+    window.location.href = `/fiches?query=${value}`
   }
 
   return {
